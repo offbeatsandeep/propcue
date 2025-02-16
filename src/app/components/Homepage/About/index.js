@@ -16,10 +16,7 @@ const About = () => {
                 
 
                 <p className='py-3 px-2 text-sm font-medium'>
-                    Our goal is to connect you with properties that fit your needs and budget. <br />We offer a wide range of options, from apartments and houses to commercial spaces, all available for rent or sale. <br /> You can trust that we only work with reliable and trusted property owners.
-                    At PropCue,
-                    we believe that finding a home should be simple. That's why we offer easy-to-use tools to help you search, inquire, and make decisions quickly. If you have any questions or need help, our friendly support team is always here for you!
-                    Let us help you find the perfect property today. <br />Reach out to us for any inquiries, and we'll guide you every step of the way.
+                    Our goal is to connect you with properties that fit your needs and budget. <br />We offer a wide range of options, from apartments and houses to commercial spaces, all available for rent or sale. <br />Reach out to us for any inquiries, and we'll guide you every step of the way.
                 </p>
                 <p className='py-3 px-2 text-center font-bold'>
                     Thank you for choosing PropCue – where finding your next property is easy!

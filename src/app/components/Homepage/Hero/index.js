@@ -4,10 +4,11 @@ const Hero = () => {
   return (
     <div>
 <div className="font-poppins relative w-full md:h-[42rem] h-96">
-        <div className="relative w-full md:h-full h-96">
-          <img src="https://images.pexels.com/photos/3288102/pexels-photo-3288102.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property 1" className="w-full md:h-full h-96 object-cover" />
-          <div className="absolute inset-0 bg-white bg-opacity-40 flex justify-center items-center text-white">
-            <h1 className="text-gray-900 text-2xl font-bold md:text-5xl text-center">
+        <div className="relative w-full md:h-full h-full">
+        <video className='' src="./7578550.mp4" type="video/mp4" frameborder="0" allowfullscreen autoPlay loop
+          muted></video>
+          <div className="absolute inset-0 bg-white bg-opacity-0 flex justify-center items-center text-white">
+            <h1 className="text-gray-800 opacity-50 text-2xl font-bold md:text-5xl text-center">
               Buy and Rent Properties in Gurgaon
             </h1>
           </div>
@@ -16,15 +17,16 @@ const Hero = () => {
           Get in Touch
         </button>
           </div>
-          
+      
+    
         </div>
 
       {/* Get in Touch Button */}
       
     </div>
     
-    </div>
-  )
+  </div>
+)
 }
 
 export default Hero
