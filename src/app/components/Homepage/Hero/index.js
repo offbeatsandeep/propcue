@@ -7,10 +7,10 @@ const Hero = () => {
         <div className="relative w-full md:h-full h-96">
         <video className='w-full md:h-full h-96 object-cover' src="./7578550.mp4" type="video/mp4" frameborder="0" allowfullscreen autoPlay loop
           muted></video>
-
           {/* <img src="https://images.pexels.com/photos/3288102/pexels-photo-3288102.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property 1" 
           
           className="w-full md:h-full h-96 object-cover" /> */}
+          
           <div className="absolute inset-0 bg-white bg-opacity-40 flex justify-center items-center text-white">
             <h1 className="opacity-25 text-gray-900 text-2xl font-bold md:text-5xl text-center">
               Buy and Rent Properties in Gurgaon
@@ -21,7 +21,6 @@ const Hero = () => {
           Get in Touch
         </button>
           </div>
-          
         </div>
 
       {/* Get in Touch Button */}

@@ -17,20 +17,19 @@ const Testimonials = () => {
 
 
   return (
-    <div className='font-poppins slider-container'>
+    <div className='font-poppins bg-gray-50 slider-container'>
 
       {/* slide #1 */}
       <h1 className='text-center py-5 md:text-4xl text-3xl font-extrabold'> What our clients say </h1>
       <Slider {...settings}>
        {/* slider 1 */}
        <div>
-          <div className='py-20 w-full flex flex-col align-middle justify-center items-center'>
-
+          <div className='p-9 md:p-20 w-full flex flex-col justify-center items-center'>
             <div className='flex flex-col space-y-3 items-center py-5'>
-              <img className='rounded-full bottom-3'
+              <img className='rounded-full '
                 src="https://i.pravatar.cc/100" alt="1" srcset="" />
-              <h1 className='text-lg md:text-2xl '> Sunny Mehta </h1>
-              <p className='text-center text-sm md:text-xl px-5 p-3 font-medium'> "Working with Pawan was an amazing experience. From the start, they took the time
+              <h1 className='text-lg md:text-2xl'> Sunny Mehta </h1>
+              <p className='text-center text-sm md:text-xl px-10 font-medium'> "Working with Pawan was an amazing experience. From the start, they took the time
                 to understand exactly what we were looking for and helped us find a home that perfectly
                 suited our needs..." </p>
             </div>
@@ -38,13 +37,13 @@ const Testimonials = () => {
         </div>
         {/* slider 2 */}
         <div>
-          <div className='py-20 flex flex-col align-middle justify-center items-center'>
+          <div className='p-9 md:p-20 flex flex-col align-middle justify-center items-center'>
 
             <div className='flex flex-col space-y-3 items-center py-5'>
-              <img className='rounded-full bottom-3'
+              <img className='rounded-full '
                 src="https://i.pravatar.cc/100" alt="1" srcset="" />
               <h1 className='text-lg md:text-2xl '> Pratik Aggarwal </h1>
-              <p className='text-center text-sm md:text-xl px-5 p-3 font-medium'> "Working with Pawan was an amazing experience. From the start, they took the time
+              <p className='text-center text-sm md:text-xl px-10 font-medium'> "Working with Pawan was an amazing experience. From the start, they took the time
                 to understand exactly what we were looking for and helped us find a home that perfectly
                 suited our needs..." </p>
             </div>
@@ -54,13 +53,13 @@ const Testimonials = () => {
 
         {/* slider 3 */}
         <div>
-          <div className='py-20 flex flex-col align-middle justify-center items-center'>
+          <div className='p-9 md:p-20 flex flex-col align-middle justify-center items-center'>
 
             <div className='flex flex-col space-y-3 items-center py-5'>
-              <img className='rounded-full bottom-3'
+              <img className='rounded-full'
                 src="https://i.pravatar.cc/100" alt="1" srcset="" />
               <h1 className='text-lg md:text-2xl '> Satish Soni </h1>
-              <p className='text-center text-sm md:text-xl px-5 p-3 font-medium'> "Working with Pawan was an amazing experience. From the start, they took the time
+              <p className='text-center text-sm md:text-xl px-10 font-medium'> "Working with Pawan was an amazing experience. From the start, they took the time
                 to understand exactly what we were looking for and helped us find a home that perfectly
                 suited our needs..." </p>
             </div>
