@@ -6,7 +6,7 @@ const Project = () => {
       <h1 className='py-5 md:text-4xl text-3xl font-extrabold'>
         Properties
       </h1>
-      <div className='flex font-poppins items-center py-3 w-full h-96 overflow-x-scroll whitespace-nowrap  scrollbar-hide'>
+      <div className='flex font-poppins items-center py-3 w-full h-96 overflow-x-scroll whitespace-nowrap scrollbar-hide'>
         <div className='bg-gray-600  ml-4 rounded-md shrink-0'>
           <div className=''>
             <a className='hover:cursor-pointer' href="http://">
@@ -19,7 +19,7 @@ const Project = () => {
             </a>
           </div>
         </div>
-        <div className='bg-gray-600  ml-4 rounded-md shrink-0'>
+        <div className='bg-gray-600 ml-4 rounded-md shrink-0'>
           <div className=''>
             <a className='hover:cursor-pointer' href="http://">
               <img className='md:h-64 h-48 object-cover'

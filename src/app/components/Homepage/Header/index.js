@@ -6,18 +6,18 @@ const Header = () => {
   const [isOpen, isSetOpen] = useState(false);
   return (
     <div className="font-poppins">
-      <nav className="py-3 px-5 items-center justify-between text-gray-800  flex w-full">
+      <nav className="py-3 px-2 items-center justify-between text-gray-800  flex w-full">
         <div className="py-2 px-2">
-          <h1 className="text-2xl font-bold">ZiggyHomes</h1>
+          <h1 className="text-2xl font-bold">Propcue</h1>
         </div>
         <div>
-          <div className="md:hidden flex gap-5 items-center">
+          <div className="md:hidden  flex gap-5 items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
               fill="bg-gray-800"
-              class="bi bi-search"
+              className="bi bi-search  px-0.5"
               viewBox="0 0 16 16"
             >
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
@@ -31,7 +31,7 @@ const Header = () => {
                 height="32"
                 viewBox="0 0 40 40"
                 xmlns="http://www.w3.org/2000/svg"
-                className="cursor-pointer hover:fill-gray-600 transition-colors duration-200"
+                className="cursor-pointer px-1  hover:fill-gray-600 transition-colors duration-200"
               >
                 <rect y="6" width="30" height="4" className="bg-gray-800" />
                 <rect y="18" width="20" height="4" className="bg-gray-800" />

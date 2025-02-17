@@ -9,7 +9,8 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='flex justify-around font-poppins w-full h-full md:px-12 py-6 bg-gray-800'>
+    <div className='flex justify-around flex-col md:flex-row font-poppins w-full h-full md:px-12 py-6 bg-gray-800'>
+      <nav>
       <ul className='px-10 md:px-16'>
         <h1 className='text-white py-5 md:text-2xl text-md font-bold'> CONTACT INFO </h1>
         <div className='flex items-center gap-4'>
@@ -29,7 +30,9 @@ const Footer = () => {
           Gurugram-122001
         </address>
       </ul>
+      </nav>
 
+      <nav>
       <ul className='px-10 md:px-16'>
         <h1 className='text-white py-5 md:text-2xl text-sm font-bold'> Our links </h1>
 
@@ -48,20 +51,27 @@ const Footer = () => {
         <div className='flex gap-3 flex-col'>
         <h1 className='text-white py-1 md:text-2xl text-sm font-bold'> Follow us </h1>
         <div className='flex gap-3'>
-        <a href="http://">
+        <a href="https://facebook.com/propcue">
             <FaFacebookSquare className='text-white text-2xl' />
-          </a>
-          <a href="">
+        </a>
+        <a href="https://x.com/propcue">
             <FaXTwitter className='text-white text-2xl' />
-          </a>
-          <a href="">
+        </a>
+        <a href="https://www.instagram.com/propcue">
             <FaInstagram className='text-white text-2xl' />
-          </a>
+        </a>
         </div>
-          
         </div>
       </ul>
-
+      </nav>
+      <div className='flex gap-1'>
+      <h2 className='text-gray-200 p-10'>
+        Copyright © 2025
+        </h2> 
+      <h2 className='text-gray-200 p-10'>
+       Propcue estate LTD.
+        </h2> 
+      </div>
     </div>
 
   )
