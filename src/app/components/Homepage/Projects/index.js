@@ -2,11 +2,11 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className='flex flex-col items-center w-full justify-center'>
-      <h1 className='py-5 md:text-4xl text-3xl font-extrabold'>
+    <div className='font-poppins flex flex-col items-center w-full justify-center'>
+      <h1 className='text-center py-5 md:text-3xl text-2xl font-extrabold'>
         Properties
       </h1>
-      <div className='flex font-poppins items-center py-3 w-full h-96 overflow-x-scroll whitespace-nowrap scrollbar-hide'>
+      <div className='flex bg-gray-100 items-center w-full h-96 overflow-x-scroll whitespace-nowrap scrollbar-hide'>
         <div className='bg-gray-600  ml-4 rounded-md shrink-0'>
           <div className=''>
             <a className='hover:cursor-pointer' href="http://">

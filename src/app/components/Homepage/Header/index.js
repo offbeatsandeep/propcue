@@ -64,23 +64,23 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden lg:hidden absolute z-10 w-full h-full text-white bg-gray-700">
           <div className="flex p-5">
-            <ul className="flex-col font-bold text-2xl space-y-10 w-full h-full">
+            <ul className="flex-col text-md space-y-10 w-full h-full">
               <li>
                 <a className="hover:text-gray-500" href="#home">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#for_rent">For Rent</a>
+                <a className="hover:text-gray-500" href="#for_rent">For Rent</a>
               </li>
               <li>
-                <a href="#contact">Contact us</a>
+                <a className="hover:text-gray-500" href="#contact">Contact us</a>
               </li>
               <li>
-                <a href="#about_us">About us</a>
+                <a className="hover:text-gray-500" href="#about_us">About us</a>
               </li>
               <li>
-                <a href="#properties">Properties</a>
+                <a  className="hover:text-gray-500" href="#properties">Properties</a>
               </li>
             </ul>
             <div className="cursor-pointer" onClick={() => isSetOpen(!open)}>

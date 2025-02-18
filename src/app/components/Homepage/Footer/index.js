@@ -9,18 +9,18 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='flex justify-around flex-col md:flex-row font-poppins w-full h-full md:px-12 py-6 bg-gray-800'>
+    <div className='font-poppins flex justify-around flex-col md:flex-row w-full h-full md:px-12 py-6 bg-gray-800'>
       <nav>
-      <ul className='px-10 md:px-16'>
+      <ul className='px-10 py-10 md:px-16'>
         <h1 className='text-white py-5 md:text-2xl text-md font-bold'> CONTACT INFO </h1>
         <div className='flex items-center gap-4'>
           <TfiHeadphoneAlt className='size-16 md:size-24 text-white' />
           <div>
             <li>
-              <a className='text-white text-sm' href=''>HOTLINE free 24/7</a>
+              <a className='text-white text-sm' href=''>Connect with us</a>
             </li>
             <li>
-              <a className='text-white text-sm' href=''> +91 899-99-99999
+              <a className='text-white text-sm' href=''> +91 9785107911
               </a>
             </li>
           </div>
@@ -33,7 +33,7 @@ const Footer = () => {
       </nav>
 
       <nav>
-      <ul className='px-10 md:px-16'>
+      <ul className='px-10 py-10 md:px-16'>
         <h1 className='text-white py-5 md:text-2xl text-sm font-bold'> Our links </h1>
 
         <li>
@@ -64,13 +64,14 @@ const Footer = () => {
         </div>
       </ul>
       </nav>
-      <div className='flex gap-1'>
-      <h2 className='text-gray-200 p-10'>
+      <hr />
+      <div className='py-5 flex flex-col md:flex-row gap-1 items-center justify-baseline'>
+      <h1 className='text-gray-200 text-sm px-10 pt-1.5'>
         Copyright © 2025
-        </h2> 
-      <h2 className='text-gray-200 p-10'>
-       Propcue estate LTD.
-        </h2> 
+        </h1> 
+      <h1 className='text-gray-200 px-10 text-md'>
+       Propcue estate pvt Ltd.
+        </h1> 
       </div>
     </div>
 
